@@ -1,0 +1,93 @@
+*{margin:0;}
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(106, 133, 240);
+  height: 50px;
+  margin: 0px;
+  background-position: 0px 0px;
+  border-width: 0px;
+  padding: 0;
+}
+.logo{
+width: 75px;
+}
+.middle-section{
+  flex: 1;
+  font-size: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 10px;
+  margin-left: 30px;
+  font-family:Roboto,Arial;
+  font-weight: 500;
+  color: white;
+}
+.left-section{
+  margin-right: 30px;
+}
+.right-section{
+  margin-top: 10px;
+  font-family:Roboto,Arial;
+  text-decoration:none;
+
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+.soon{
+  margin: auto;
+  width: 300px;
+  border: 3px solid rgb(71, 71, 185);
+  padding: 10px;
+  color: white;
+  background-color: gray;
+  font-family:Roboto,Arial;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.output{
+  background-color: rgb(90, 191, 220);
+    font-family:Roboto,Arial;
+}
+.input{
+  font-family:Roboto,Arial;
+  font-size: 20px;
+  background-color: rgb(90, 191, 220);
+}
+.send{
+  background-color: rgb(246, 53, 53);
+  border-width: 1px;
+  border-radius: 3px;
+  width: 100px;
+  font-family:Roboto,Arial;
+  font-size: 20px;
+  transition:all .2s;
+}
+.send:hover{
+  opacity: .85;
+}
+.send:active{
+  background-color: rgb(240, 120, 7);
+}
+.mute{
+  background-color: rgb(103, 194, 255);
+  border-radius: 5px;
+  font-family:Roboto,Arial;
+}
+.dropdown{
+  background-color: rgb(47, 168, 249);
+  font-family:Roboto,Arial;
+  font-size: 16px;
+}
+.body{
+  background-color: rgb(138, 147, 229);
+}
+.logo:hover{
+  filter: invert(1);
+  transform: rotate(100turn);
+  width: 1000px;
+}
+.logo{
+  transition:transform 10s,width 10s;
+}
