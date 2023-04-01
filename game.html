@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPY ETF Prediction Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>SPY ETF Prediction Game</h1>
+    <div>
+      <canvas id="chart"></canvas>
+    </div>
+    <div>
+      <button class="up" id="up">Up</button>
+      <button class="down" id="down">Down</button>
+    </div>
+    <div id="result"></div>
+    <div id="stats">
+      <p>Current Win Streak: <span id="currentStreak">0</span></p>
+      <p>Highest Win Streak: <span id="highestStreak">0</span></p>
+      <p>Win/Loss Ratio: <span id="winLossRatio">0</span></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
